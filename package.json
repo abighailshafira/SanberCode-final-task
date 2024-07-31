@@ -1,0 +1,28 @@
+{
+  "name": "sanbercode-final-task",
+  "version": "1.0.0",
+  "description": "automated ui test using wdio and cucumber ",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abighailshafira/SanberCode-final-task.git"
+  },
+  "author": "abighail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abighailshafira/SanberCode-final-task/issues"
+  },
+  "homepage": "https://github.com/abighailshafira/SanberCode-final-task#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.2",
+    "@babel/register": "^7.24.6",
+    "@wdio/cli": "^8.39.1",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/spec-reporter": "^8.39.0"
+  }
+}
