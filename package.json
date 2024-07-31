@@ -4,7 +4,7 @@
   "description": "automated ui test using wdio and cucumber ",
   "main": "index.js",
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "npx wdio run ./wdio.conf.js"
   },
   "repository": {
     "type": "git",
